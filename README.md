@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="client/src/Assets/images/StudyFlow-logo.png" width="70"/> <span style="color:#ff7b00;">Study</span><span style="color:#8b5cf6;">Flow</span>
+# <img src="client/src/Assets/images/StudyFlow-logo.png" width="60"/> <span style="color:#ff7b00;">Study</span><span style="color:#8b5cf6;">Flow</span>
 
 ### 🚀 AI-Powered Productivity Platform for Students
 
