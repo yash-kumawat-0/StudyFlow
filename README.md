@@ -57,27 +57,7 @@
 * 📱 Fully responsive design
 * 🌙 Clean and minimal interface
 * 🚀 Smooth user experience
-
----
-
-# 📸 Preview
-
-## 🏠 Landing Page
-
-<img width="100%" alt="Landing Page" src="YOUR_SCREENSHOT_LINK_HERE"/>
-
----
-
-## 📊 Dashboard
-
-<img width="100%" alt="Dashboard" src="YOUR_SCREENSHOT_LINK_HERE"/>
-
----
-
-## 📱 Responsive Design
-
-<img width="100%" alt="Responsive UI" src="YOUR_SCREENSHOT_LINK_HERE"/>
-
+* 
 ---
 
 # 🛠 Tech Stack
