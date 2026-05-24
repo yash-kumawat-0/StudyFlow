@@ -1,17 +1,17 @@
 <div align="center">
 
-# 🚀 StudyFlow
+# <img src="./logo.png" width="40"/> <span style="color:#ff7b00;">Study</span><span style="color:#8b5cf6;">Flow</span>
 
-### AI-Powered Productivity Platform for Students
+### 🚀 AI-Powered Productivity Platform for Students
 
 <p align="center">
-  Organize tasks, manage studies, collaborate efficiently and boost productivity with a modern full-stack platform built using the MERN stack.
+  Organize tasks, manage studies, collaborate efficiently and boost productivity with a modern full-stack MERN platform.
 </p>
 
 <br/>
 
 <a href="https://study-flow-inky.vercel.app/">
-  <img src="https://img.shields.io/badge/🌐_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-111111?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
 <a href="https://github.com/yash-kumawat-0/studyflow">
@@ -21,11 +21,7 @@
 <br/>
 <br/>
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,nodejs,express,mongodb,git,github,vscode&theme=dark" />
 
 </div>
 
@@ -57,39 +53,42 @@
 * 📱 Fully responsive design
 * 🌙 Clean and minimal interface
 * 🚀 Smooth user experience
-* 
+
 ---
 
 # 🛠 Tech Stack
 
-| Category       | Technologies                    |
-| -------------- | ------------------------------- |
-| Frontend       | React, Tailwind CSS, JavaScript |
-| Backend        | Node.js, Express.js             |
-| Database       | MongoDB                         |
-| Authentication | JWT / Session Auth              |
-| Deployment     | Vercel                          |
+<div align="center">
+
+## 🎨 Frontend
+
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css&theme=dark" />
+
+<br/><br/>
+
+## ⚙️ Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb&theme=dark" />
+
+<br/><br/>
+
+## 🔧 Tools & Deployment
+
+<img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,postman&theme=dark" />
+
+</div>
 
 ---
 
 # 📂 Folder Structure
 
-```bash
+```bash id="5m7msp"
 studyflow/
 │
-├── client/                 # Frontend Application
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/                 # Backend API
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   └── server.js
-│
+├── client/
+├── server/
 ├── screenshots/
+├── public/
 ├── README.md
 └── package.json
 ```
@@ -100,7 +99,7 @@ studyflow/
 
 ## 1️⃣ Clone Repository
 
-```bash
+```bash id="3l0xmq"
 git clone https://github.com/yash-kumawat-0/studyflow.git
 ```
 
@@ -108,7 +107,7 @@ git clone https://github.com/yash-kumawat-0/studyflow.git
 
 ## 2️⃣ Navigate Into Project
 
-```bash
+```bash id="fjit9l"
 cd studyflow
 ```
 
@@ -116,16 +115,16 @@ cd studyflow
 
 ## 3️⃣ Install Dependencies
 
-### Frontend
+### Frontend Setup
 
-```bash
+```bash id="xld6j5"
 cd client
 npm install
 ```
 
-### Backend
+### Backend Setup
 
-```bash
+```bash id="fx0pnr"
 cd ../server
 npm install
 ```
@@ -134,9 +133,9 @@ npm install
 
 ## 4️⃣ Configure Environment Variables
 
-Create `.env` file inside `server/`
+Create `.env` inside `server/`
 
-```env
+```env id="s8vph9"
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 PORT=5000
@@ -144,18 +143,18 @@ PORT=5000
 
 ---
 
-## 5️⃣ Start Development Server
+## 5️⃣ Run Development Server
 
-### Backend
+### Start Backend
 
-```bash
+```bash id="e1gq9o"
 cd server
 npm run dev
 ```
 
-### Frontend
+### Start Frontend
 
-```bash
+```bash id="v9n2t1"
 cd client
 npm run dev
 ```
@@ -176,7 +175,7 @@ npm run dev
 
 ### Yash Kumawat & Team
 
-Built collaboratively as a full-stack productivity platform focused on solving real student workflow challenges.
+Built collaboratively as a modern productivity platform focused on improving student workflow and collaboration.
 
 ---
 
