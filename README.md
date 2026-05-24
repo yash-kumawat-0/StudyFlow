@@ -1,61 +1,62 @@
-# 📚 StudyFlow
+<div align="center">
 
-### 🚀 AI-Powered Student Productivity Platform
+# 🚀 StudyFlow
 
-StudyFlow is a modern full-stack productivity platform designed for students to manage tasks, collaborate efficiently, and improve study workflows through an intuitive and responsive interface.
+### AI-Powered Productivity Platform for Students
 
-🔗 **Live Demo:** https://study-flow-inky.vercel.app/
+<p align="center">
+  Organize tasks, manage studies, collaborate efficiently and boost productivity with a modern full-stack platform built using the MERN stack.
+</p>
+
+<br/>
+
+<a href="https://study-flow-inky.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="https://github.com/yash-kumawat-0/studyflow">
+  <img src="https://img.shields.io/badge/📂_Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/>
+<br/>
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+
+</div>
 
 ---
 
 # ✨ Features
 
-## 🧠 Smart Productivity
+## 📚 Productivity System
 
-* 📌 Task & study management
-* 📝 Notes organization
-* 📅 Structured workflow system
-* ⚡ Clean and distraction-free UI
+* ✅ Smart task management
+* 📝 Notes & study organization
+* 📅 Structured workflows
+* ⚡ Fast and responsive experience
 
 ## 👥 Collaboration
 
-* 🤝 Team-based project collaboration
-* 💬 Real-time communication features
+* 🤝 Team-based collaboration
+* 💬 Interactive communication
 * 🌐 Shared productivity environment
 
 ## 🔐 Authentication & Security
 
-* 🔑 Secure user authentication
-* 🛡 Protected routes & sessions
-* 👤 Personalized dashboards
+* 🔑 Secure authentication system
+* 🛡 Protected routes
+* 👤 Personalized dashboard
 
-## 📱 Responsive Design
+## 🎨 Modern UI/UX
 
-* 💻 Desktop optimized
-* 📱 Mobile responsive
-* 🎨 Modern UI/UX design
-
----
-
-# 🛠️ Tech Stack
-
-## 🎨 Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css" />
-</p>
-
-## ⚙️ Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" />
-</p>
-
-## 🔧 Tools & Deployment
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,postman" />
-</p>
+* 📱 Fully responsive design
+* 🌙 Clean and minimal interface
+* 🚀 Smooth user experience
 
 ---
 
@@ -63,43 +64,51 @@ StudyFlow is a modern full-stack productivity platform designed for students to 
 
 ## 🏠 Landing Page
 
-> Modern and minimal interface focused on productivity and usability.
+<img width="100%" alt="Landing Page" src="YOUR_SCREENSHOT_LINK_HERE"/>
+
+---
 
 ## 📊 Dashboard
 
-> Organized workspace for tracking tasks and study goals.
-
-## 🌙 Clean UI Experience
-
-> Smooth layouts with responsive and user-friendly interactions.
+<img width="100%" alt="Dashboard" src="YOUR_SCREENSHOT_LINK_HERE"/>
 
 ---
 
-# 🚀 Installation
+## 📱 Responsive Design
 
-```bash
-# Clone repository
-git clone https://github.com/yash-kumawat-0/studyflow.git
-
-# Navigate into project
-cd studyflow
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
+<img width="100%" alt="Responsive UI" src="YOUR_SCREENSHOT_LINK_HERE"/>
 
 ---
 
-# 📂 Project Structure
+# 🛠 Tech Stack
+
+| Category       | Technologies                    |
+| -------------- | ------------------------------- |
+| Frontend       | React, Tailwind CSS, JavaScript |
+| Backend        | Node.js, Express.js             |
+| Database       | MongoDB                         |
+| Authentication | JWT / Session Auth              |
+| Deployment     | Vercel                          |
+
+---
+
+# 📂 Folder Structure
 
 ```bash
 studyflow/
 │
-├── client/
-├── server/
+├── client/                 # Frontend Application
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/                 # Backend API
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── server.js
+│
 ├── screenshots/
 ├── README.md
 └── package.json
@@ -107,28 +116,94 @@ studyflow/
 
 ---
 
-# 🌱 Future Improvements
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/yash-kumawat-0/studyflow.git
+```
+
+---
+
+## 2️⃣ Navigate Into Project
+
+```bash
+cd studyflow
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+### Frontend
+
+```bash
+cd client
+npm install
+```
+
+### Backend
+
+```bash
+cd ../server
+npm install
+```
+
+---
+
+## 4️⃣ Configure Environment Variables
+
+Create `.env` file inside `server/`
+
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+---
+
+## 5️⃣ Start Development Server
+
+### Backend
+
+```bash
+cd server
+npm run dev
+```
+
+### Frontend
+
+```bash
+cd client
+npm run dev
+```
+
+---
+
+# 🚀 Future Improvements
 
 * 🤖 AI-powered study recommendations
-* 📈 Analytics dashboard
+* 📈 Productivity analytics dashboard
 * 🔔 Smart reminders & notifications
 * 📚 Study session tracking
 * 🧠 AI assistant integration
 
 ---
 
-# 👨‍💻 Team Project
+# 👨‍💻 Contributors
 
-Built collaboratively as a full-stack MERN application focused on solving real student productivity challenges.
+### Yash Kumawat & Team
+
+Built collaboratively as a full-stack productivity platform focused on solving real student workflow challenges.
 
 ---
 
-# 📫 Connect
+# 📬 Contact
 
-### 👤 Yash Kumawat
-
-* GitHub: https://github.com/yash-kumawat-0
-* Email: [kumawatyash378@gmail.com](mailto:kumawatyash378@gmail.com)
+📧 Email: [kumawatyash378@gmail.com](mailto:kumawatyash378@gmail.com)
+💻 GitHub: https://github.com/yash-kumawat-0
 
 ---
 
